@@ -1,17 +1,17 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Master's in Computer Science, <a href='https://www.asu.edu/'>Arizona State University</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  # more_info: >
+  #   <p>555 your office number</p>
+  #   <p>123 your address street</p>
+  #   <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -19,8 +19,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a first year Master's student at Arizona State University with a passion for Deep Learning and Machine Learning technologies. I am an enthusiast of learning and developing technologies that mimic humans. I have been working on some very interesting Multimodal learning: Vision and Language tasks which include Scene text understanding and Visual Question Answering.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+In my undergraduate, I worked with Prof. Shankar Gangisetty on various projects in the VQA domain.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My Research Interests are:
+Machine Learning | Deep Learning | Computer Vision | Natural Language Processing | Multi-modal Learning: Vision and Language
