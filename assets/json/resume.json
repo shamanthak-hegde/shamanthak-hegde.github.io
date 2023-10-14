@@ -6,7 +6,7 @@
     "email": "shegde23@asu.edu",
     "phone": "+1 (602)-637-8364",
     "url": "https://shamanthak-hegde.github.io",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "summary": "A first year Master's student at ASU with a passion for Deep Learning and Natural Language Processing Technologies",
     "location": {
       "address": "711 Broadway Rd",
       "postalCode": "AZ 85282",
@@ -17,8 +17,8 @@
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "shamanthakhegde",
+        "url": "https://twitter.com/shamanthakhegde"
       }
     ]
   },
@@ -64,12 +64,6 @@
     }
   ],
   "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
   ],
   "certificates": [],
   "publications": [],
