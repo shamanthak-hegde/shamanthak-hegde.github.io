@@ -6,7 +6,7 @@ subtitle: Master's in Computer Science, <a href='https://www.asu.edu/'>Arizona S
 
 profile:
   align: right
-  image: prof_pic.png
+  image: MyPic.png
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
@@ -19,9 +19,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a first year Master's student at Arizona State University with a passion for Deep Learning and Machine Learning technologies. I am an enthusiast of learning and developing technologies that mimic humans. I have been working on some very interesting Multimodal learning: Vision and Language tasks which include Scene text understanding and Visual Question Answering.
+I am a final year Master's student at Arizona State University working under <a href='https://faculty.engineering.asu.edu/yezhouyang/'>Dr. Yezhou Yang</a>. I am particularly interested in machine learning, especially in natural language processing and computer vision. I focus on combining information from different sources—like text, images, and video—to help machines develop more robust, reliable, and safe commonsense reasoning.
 
-In my undergraduate, I worked with Prof. Shankar Gangisetty on various projects in the VQA domain.
+In my undergraduate, I worked with <a href='https://sites.google.com/site/shankarsetty/home'>Dr. Shankar Gangisetty</a> on various projects in the VQA domain.
 
 My Research Interests are:
-Machine Learning | Deep Learning | Computer Vision | Natural Language Processing | Multi-modal Learning: Vision and Language
+Machine Learning | Computer Vision | Natural Language Processing | Multi-modal Learning: Vision and Language
