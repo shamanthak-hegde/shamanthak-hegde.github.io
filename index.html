@@ -9,6 +9,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <script>
+      function openBib(file) {
+        fetch(file)
+          .then(response => response.text())
+          .then(data => {
+            const newWindow = window.open();
+            newWindow.document.write('<pre>' + data + '</pre>');
+          });
+      }
+    </script>
     
   </head>
 
@@ -23,16 +34,16 @@
                   Shamanthak Hegde
                 </p>
                 <p>
-		I am a final year Computer Science Master's student at Arizona State University where I am advised by <a href='https://faculty.engineering.asu.edu/yezhouyang/'>Yezhou Yang</a>. My current research interests lies in combining information from different sources—like text, images, and video—to help machines develop more robust, reliable, and safe commonsense reasoning. <br><br>
-    I received my Bachelors in Computer Science Engineering from <a href="https://www.kletech.ac.in/">KLE Technological University</a> in 2023 where I was advised by <a href='https://sites.google.com/site/shankarsetty/home'>Shankar Gangisetty</a> on various projects in the VQA domain.
+		I am a final year Computer Science Master's student at Arizona State University where I am advised by <a href='https://faculty.engineering.asu.edu/yezhouyang/' target="_blank">Yezhou Yang</a>. My current research interests lies in combining information from different sources—like text, images, and video—to help machines develop more robust, reliable, and safe commonsense reasoning. <br><br>
+    I received my Bachelors in Computer Science Engineering from <a href="https://www.kletech.ac.in/" target="_blank">KLE Technological University</a> in 2023 where I was advised by <a href='https://sites.google.com/site/shankarsetty/home' target="_blank">Shankar Gangisetty</a> on various projects in the VQA domain.
 
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:shamanthak.hegde@gmail.com">Email</a> &nbsp;/&nbsp;
-                  <a href="data/Shamanthak_Hegde_MLE_Resume.pdf">CV</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?user=MYWq5XcAAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://x.com/shamanthakhegde">X</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/shamanthak-hegde">Github</a>
+                  <a href="data/Shamanthak_Hegde_MLE_Resume.pdf" target="_blank">CV</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=MYWq5XcAAAAJ&hl=en" target="_blank">Google Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://x.com/shamanthakhegde" target="_blank">X</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/shamanthak-hegde" target="_blank">GitHub</a>
                 </p>
               </td>
               <td style="padding:2.5%;width:37%;max-width:37%">
@@ -41,9 +52,9 @@
             </tr>
           </tbody></table>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:-10px"><tbody>
-          <tr style="padding:0px">
-          <td style="padding:2.5%;vertical-align:middle;width:63%">
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:-10px"><tbody>
+    <tr style="padding:0px">
+    <td style="padding:2.5%;vertical-align:middle;width:63%">
     <a id="news"><h2>News</h2></a>
     <p>
     
@@ -51,166 +62,168 @@
       <ul id="News">
       <p>
       </p>
-          <li> June, 2025 - New preprint <a href="https://arxiv.org/abs/2504.13275">ChartQA-X: Generating Explanations for Charts</a> is out!</li>
-          <li> June, 2025 - Nominated as a reviewer for <a href="https://neurips.cc/">NeurIPS</a> 2025!</li>
-          <li> April, 2025 - Nominated as a reviewer for <a href="https://acmmm2025.org/">ACM MM</a> 2025!</li>
-          <li> March, 2025 - Nominated as a reviewer for <a href="https://2025.aclweb.org/">ACL</a> 2025!</li>
-          <li> February, 2025 - New preprint <a href="https://arxiv.org/abs/2502.06023">Dual Caption Preference Optimization for Diffusion Models</a> is out!</li>
-          <li> October, 2024 - Nominated as a reviewer for RBFM Workshop <a href="https://neurips.cc/">NeurIPS</a> 2024!</li>
-          <li> June, 2024 - 1 paper accepted to EvGenFM Workshop <a href="https://cvpr.thecvf.com/">CVPR</a> 2024!</li>
-          <li> August, 2023 - Started Master's in Computer Science at <a href="https://www.asu.edu/">ASU</a>!</li>
-          <li> July, 2023 - Graduated with a Bachelors's Degree in Computer Science Engineering from <a href="https://www.kletech.ac.in/hubballi/">KLE Technological University</a>!</li>
-          <li> June, 2023 - 2 papers accepted to O-DRUM Workshop <a href="https://cvpr.thecvf.com/">CVPR</a> 2023!</li>
-          <li> January, 2023 - Joining <a href="https://www.bosch-softwaretechnologies.com/en/">Bosch Global Software Technologies</a> as a Software Development Intern.</li>
+          <li> June, 2025 - New preprint <a href="https://arxiv.org/abs/2504.13275" target="_blank">ChartQA-X: Generating Explanations for Charts</a> is out!</li>
+          <li> June, 2025 - Nominated as a reviewer for <a href="https://neurips.cc/" target="_blank">NeurIPS</a> 2025!</li>
+          <li> April, 2025 - Nominated as a reviewer for <a href="https://acmmm2025.org/" target="_blank">ACM MM</a> 2025!</li>
+          <li> March, 2025 - Nominated as a reviewer for <a href="https://2025.aclweb.org/" target="_blank">ACL</a> 2025!</li>
+          <li> February, 2025 - New preprint <a href="https://arxiv.org/abs/2502.06023" target="_blank">Dual Caption Preference Optimization for Diffusion Models</a> is out!</li>
+          <li> October, 2024 - Nominated as a reviewer for RBFM Workshop <a href="https://neurips.cc/" target="_blank">NeurIPS</a> 2024!</li>
+          <li> June, 2024 - 1 paper accepted to EvGenFM Workshop <a href="https://cvpr.thecvf.com/" target="_blank">CVPR</a> 2024!</li>
+          <li> August, 2023 - Started Master's in Computer Science at <a href="https://www.asu.edu/" target="_blank">ASU</a>!</li>
+          <li> July, 2023 - Graduated with a Bachelors's Degree in Computer Science Engineering from <a href="https://www.kletech.ac.in/hubballi/" target="_blank">KLE Technological University</a>!</li>
+          <li> June, 2023 - 2 papers accepted to O-DRUM Workshop <a href="https://cvpr.thecvf.com/" target="_blank">CVPR</a> 2023!</li>
+          <li> January, 2023 - Joining <a href="https://www.bosch-softwaretechnologies.com/en/" target="_blank">Bosch Global Software Technologies</a> as a Software Development Intern.</li>
       </ul>
       </div>
     </p>
 
-  </td>
-        </tr>
-      </tbody></table>
+    </td>
+    </tr>
+    </tbody></table>
 
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <a id="Research"><h2>Research</h2></a>
-                <p>
-                  I'm interested in computer vision, machine learning, generative AI, and natural language processing. Representative papers are <span class="highlight">highlighted</span>.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+        <td style="padding:16px;width:100%;vertical-align:middle">
+          <a id="Research"><h2>Research</h2></a>
+          <p>
+            I'm interested in computer vision, machine learning, generative AI, and natural language processing. Representative papers are <span class="highlight">highlighted</span>.
+          </p>
+        </td>
+      </tr>
+    </tbody></table>
 
-            <tr bgcolor="#ffffd0">
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src="images/chartqa-x.png" alt="chartqax_overview" width="180" style="border-style: none">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2504.13275">
-                  <span class="papertitle">ChartQA-X: Generating Explanations for Charts</span>
-                </a>
-                <br>
-                <strong>Shamanthak Hegde</strong>,
-                <a href="https://pooyanfazli.com">Pooyan Fazli</a>,
-                <a href="https://hastiseifi.com">Hasti Seifi</a>
-                <br>
-                <em>Under Review</em>
-                <br><br>
-                <a href="https://arxiv.org/abs/2504.13275">Paper</a> |
-                <a href="data/chartqax_preprint.bib">bibtex</a>
-              </td>
-            </tr>
-            
-            <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src="images/dcpo_overview.png" alt="dcpo_overview" width="180" style="border-style: none">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2502.06023">
-                  <span class="papertitle">Dual Caption Preference Optimization for Diffusion Models</span>
-                </a>
-                <br>
-                <a href="https://sahsaeedi.github.io/">Amir Saeidi</a>*,
-                <a href="https://fpsluozi.github.io/about/">Yiran Luo</a>*,
-                <a href="https://agneetchatterjee.com/">Agneet Chatterjee</a>,
-                <strong>Shamanthak Hegde</strong>,
-                <a href="https://bimsarapathiraja.github.io/minimal-portfolio/">Bimsara Pathiraja</a>,
-                <a href="https://faculty.engineering.asu.edu/yezhouyang">Yezhou Yang</a>,
-                <a href="https://chitta.orissalinks.com/www">Chitta Baral</a>
-                <br>
-                <em>Under Review</em>
-                <br><br>
-                <a href="https://arxiv.org/abs/2502.06023">Paper</a> |
-                <a href="https://huggingface.co/DualCPO">Project</a> |
-                <a href="https://github.com/sahsaeedi/DCPO-T2I/">Code</a> |
-                <a href="data/dcpo_preprint.bib">bibtex</a>
-              </td>
-            </tr>
 
-            <tr bgcolor="#ffffd0">
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src="images/pic_mllm.png" alt="mtvtvqam" width="180" style="border-style: none">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://openaccess.thecvf.com/content/CVPR2024W/EvGenFM/html/Verma_Evaluating_Multimodal_Large_Language_Models_Across_Distribution_Shifts_and_Augmentations_CVPRW_2024_paper.html">
-                  <span class="papertitle">Evaluating Multimodal Large Language Models Across Distribution Shifts and Augmentations</span>
-                </a>
-                <br>
-                <a href="https://aayush-v.github.io/">Aayush Atul Verma*</a>,
-                <a href="https://sahsaeedi.github.io/">Amir Saeidi*</a>,
-                <strong>Shamanthak Hegde*</strong>,
-                <a href="https://scholar.google.com/citations?user=eKQhkQcAAAAJ&hl=en">Ajay Therala*</a>,
-                <a href="https://scholar.google.com/citations?user=0dxHSiIAAAAJ&hl=en">Fenil Denish Bardoliya*</a>,
-                <a href="https://www.linkedin.com/in/nagaraju-machavarapu">Nagaraju Machavarapu*</a>,
-                <a href="https://scholar.google.com/citations?user=iSlXe4UAAAAJ&hl=en">Shri Ajay Kumar Ravindhiran*</a>,
-                <a href="https://www.linkedin.com/in/srijamalyala">Srija Malyala*</a>,
-                <a href="https://agneetchatterjee.com/">Agneet Chatterjee*</a>,
-                <a href="https://faculty.engineering.asu.edu/yezhouyang/">Yezhou Yang</a>,
-                <a href="https://chitta.orissalinks.com/www">Chitta Baral</a>
-                <br>
-                <em>CVPR EvGenFM Workshop</em>, 2024
-                <br><br>
-                <a href="https://openaccess.thecvf.com/content/CVPR2024W/EvGenFM/html/Verma_Evaluating_Multimodal_Large_Language_Models_Across_Distribution_Shifts_and_Augmentations_CVPRW_2024_paper.html">Paper</a> |
-                <a href="data/EvGenFM_CVPR_2024.bib">bibtex</a>
-              </td>
-            </tr>
-            
-            <tr bgcolor="#ffffd0">
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src="images/mtvtvqam.png" alt="mtvtvqam" width="180" style="border-style: none">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2308.00295">
-                  <span class="papertitle">Making the V in Text-VQA Matter</span>
-                </a>
-                <br>
-                <strong>Shamanthak Hegde</strong>,
-                <a href="https://soumyasj.github.io/">Soumya Jahagirdar</a>,
-                <a href="https://sites.google.com/site/shankarsetty/home">Shankar Gangisetty</a>
-                <br>
-                <em>CVPR O-DRUM Workshop</em>, 2023
-                <br><br>
-                <a href="https://arxiv.org/abs/2308.00295">Paper</a> |
-                <a href="data/MTVQA_CVPR_2023.bib">bibtex</a>
-              </td>
-            </tr>
+  <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-            <tr bgcolor="#ffffd0">
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src="images/wsvqag.png" alt="wsvqag" width="180" style="border-style: none">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2306.06622">
-                  <span class="papertitle">Weakly Supervised Visual Question Answer Generation</span>
-                </a>
-                <br>
-                <a href="https://in.linkedin.com/in/charani-alampalle-976805195">Charani Alampalle</a>,
-                <strong>Shamanthak Hegde</strong>,
-                <a href="https://soumyasj.github.io/">Soumya Jahagirdar</a>,
-                <a href="https://sites.google.com/site/shankarsetty/home">Shankar Gangisetty</a>
-                <br>
-                <em>CVPR O-DRUM Workshop</em>, 2023
-                <br><br>
-                <a href="https://arxiv.org/abs/2306.06622">Paper</a> |
-                <a href="data/WSVQAG_CVPR_2023.bib">bibtex</a>
-              </td>
-            </tr>
+    <tr bgcolor="#ffffd0">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <img src="images/chartqa-x.png" alt="chartqax_overview" width="180" style="border-style: none">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2504.13275" target="_blank">
+          <span class="papertitle">ChartQA-X: Generating Explanations for Charts</span>
+        </a>
+        <br>
+        <strong>Shamanthak Hegde</strong>,
+        <a href="https://pooyanfazli.com" target="_blank">Pooyan Fazli</a>,
+        <a href="https://hastiseifi.com" target="_blank">Hasti Seifi</a>
+        <br>
+        <em>Under Review</em>
+        <br><br>
+        <a href="https://arxiv.org/abs/2504.13275" target="_blank">Paper</a> |
+        <a href="data/chartqax_preprint.bib" target="_blank">bibtex</a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <img src="images/dcpo_overview.png" alt="dcpo_overview" width="180" style="border-style: none">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2502.06023" target="_blank">
+          <span class="papertitle">Dual Caption Preference Optimization for Diffusion Models</span>
+        </a>
+        <br>
+        <a href="https://sahsaeedi.github.io/" target="_blank">Amir Saeidi</a>*,
+        <a href="https://fpsluozi.github.io/about/" target="_blank">Yiran Luo</a>*,
+        <a href="https://agneetchatterjee.com/" target="_blank">Agneet Chatterjee</a>,
+        <strong>Shamanthak Hegde</strong>,
+        <a href="https://bimsarapathiraja.github.io/minimal-portfolio/" target="_blank">Bimsara Pathiraja</a>,
+        <a href="https://faculty.engineering.asu.edu/yezhouyang" target="_blank">Yezhou Yang</a>,
+        <a href="https://chitta.orissalinks.com/www" target="_blank">Chitta Baral</a>
+        <br>
+        <em>Under Review</em>
+        <br><br>
+        <a href="https://arxiv.org/abs/2502.06023">Paper</a> |
+        <a href="https://huggingface.co/DualCPO">Project</a> |
+        <a href="https://github.com/sahsaeedi/DCPO-T2I/">Code</a> |
+        <a href="data/dcpo_preprint.bib" target="_blank">bibtex</a>
+      </td>
+    </tr>
 
-          </tbody></table>
-            
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:center;font-size:small;">
-                  Thank you to Jon Barron for the <a href="https://github.com/jonbarron/jonbarron_website">source code</a> for the website!
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
+    <tr bgcolor="#ffffd0">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <img src="images/pic_mllm.png" alt="mtvtvqam" width="180" style="border-style: none">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://openaccess.thecvf.com/content/CVPR2024W/EvGenFM/html/Verma_Evaluating_Multimodal_Large_Language_Models_Across_Distribution_Shifts_and_Augmentations_CVPRW_2024_paper.html" target="_blank">
+          <span class="papertitle">Evaluating Multimodal Large Language Models Across Distribution Shifts and Augmentations</span>
+        </a>
+        <br>
+        <a href="https://aayush-v.github.io/" target="_blank">Aayush Atul Verma</a>*,
+        <a href="https://sahsaeedi.github.io/" target="_blank">Amir Saeidi</a>*,
+        <strong>Shamanthak Hegde*</strong>,
+        <a href="https://scholar.google.com/citations?user=eKQhkQcAAAAJ&hl=en" target="_blank">Ajay Therala</a>*,
+        <a href="https://scholar.google.com/citations?user=0dxHSiIAAAAJ&hl=en" target="_blank">Fenil Denish Bardoliya</a>*,
+        <a href="https://www.linkedin.com/in/nagaraju-machavarapu" target="_blank">Nagaraju Machavarapu</a>*,
+        <a href="https://scholar.google.com/citations?user=iSlXe4UAAAAJ&hl=en" target="_blank">Shri Ajay Kumar Ravindhiran</a>*,
+        <a href="https://www.linkedin.com/in/srijamalyala" target="_blank">Srija Malyala</a>*,
+        <a href="https://agneetchatterjee.com/" target="_blank">Agneet Chatterjee</a>*,
+        <a href="https://faculty.engineering.asu.edu/yezhouyang/" target="_blank">Yezhou Yang</a>,
+        <a href="https://chitta.orissalinks.com/www" target="_blank">Chitta Baral</a>
+        <br>
+        <em>CVPR EvGenFM Workshop</em>, 2024
+        <br><br>
+        <a href="https://openaccess.thecvf.com/content/CVPR2024W/EvGenFM/html/Verma_Evaluating_Multimodal_Large_Language_Models_Across_Distribution_Shifts_and_Augmentations_CVPRW_2024_paper.html" target="_blank">Paper</a> |
+        <a href="data/EvGenFM_CVPR_2024.bib" target="_blank">bibtex</a>
+      </td>
+    </tr>
+    
+    <tr bgcolor="#ffffd0">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <img src="images/mtvtvqam.png" alt="mtvtvqam" width="180" style="border-style: none">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2308.00295" target="_blank">
+          <span class="papertitle">Making the V in Text-VQA Matter</span>
+        </a>
+        <br>
+        <strong>Shamanthak Hegde</strong>,
+        <a href="https://soumyasj.github.io/" target="_blank">Soumya Jahagirdar</a>,
+        <a href="https://sites.google.com/site/shankarsetty/home" target="_blank">Shankar Gangisetty</a>
+        <br>
+        <em>CVPR O-DRUM Workshop</em>, 2023
+        <br><br>
+        <a href="https://arxiv.org/abs/2308.00295" target="_blank">Paper</a> |
+        <a href="data/MTVQA_CVPR_2023.bib" target="_blank">bibtex</a>
+      </td>
+    </tr>
+
+    <tr bgcolor="#ffffd0">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <img src="images/wsvqag.png" alt="wsvqag" width="180" style="border-style: none">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2306.06622" target="_blank">
+          <span class="papertitle">Weakly Supervised Visual Question Answer Generation</span>
+        </a>
+        <br>
+        <a href="https://in.linkedin.com/in/charani-alampalle-976805195" target="_blank">Charani Alampalle</a>,
+        <strong>Shamanthak Hegde</strong>,
+        <a href="https://soumyasj.github.io/" target="_blank">Soumya Jahagirdar</a>,
+        <a href="https://sites.google.com/site/shankarsetty/home" target="_blank">Shankar Gangisetty</a>
+        <br>
+        <em>CVPR O-DRUM Workshop</em>, 2023
+        <br><br>
+        <a href="https://arxiv.org/abs/2306.06622" target="_blank">Paper</a> |
+        <a href="data/WSVQAG_CVPR_2023.bib" target="_blank">bibtex</a>
+      </td>
+    </tr>
+
+  </tbody></table>
+    
+  </tbody></table>
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr>
+      <td style="padding:0px">
+        <br>
+        <p style="text-align:center;font-size:small;">
+          Thank you to Jon Barron for the <a href="https://github.com/jonbarron/jonbarron_website" target="_blank">source code</a> for the website!
+        </p>
+      </td>
+    </tr>
+  </tbody></table>
         </td>
       </tr>
     </table>
