@@ -10,6 +10,39 @@
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
+    <style>
+      .bib-content {
+        display: none;
+        background: #f5f5f5;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 10px;
+        margin-top: 8px;
+        font-family: monospace;
+        font-size: 12px;
+        white-space: pre-wrap;
+        word-break: break-all;
+        text-align: left;
+      }
+      .bib-toggle {
+        cursor: pointer;
+        color: #1772d0;
+        text-decoration: none;
+      }
+      .bib-toggle:hover {
+        color: #f09228;
+      }
+    </style>
+    <script>
+      function toggleBib(id) {
+        var el = document.getElementById(id);
+        if (el.style.display === 'none' || el.style.display === '') {
+          el.style.display = 'block';
+        } else {
+          el.style.display = 'none';
+        }
+      }
+    </script>
   </head>
 
   <body>
@@ -29,7 +62,7 @@
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:shamanthak.hegde@gmail.com">Email</a> &nbsp;/&nbsp;
-                  <a href="data/Shamanthak_Hegde_MLE_Resume.pdf" target="_blank">CV</a> &nbsp;/&nbsp;
+                  <a href="data/Shamanthak_Hegde_MLE_Resume.pdf" target="_blank">Resume</a> &nbsp;/&nbsp;
                   <a href="https://scholar.google.com/citations?user=MYWq5XcAAAAJ&hl=en" target="_blank">Google Scholar</a> &nbsp;/&nbsp;
                   <a href="https://x.com/shamanthakhegde" target="_blank">X</a> &nbsp;/&nbsp;
                   <a href="https://github.com/shamanthak-hegde" target="_blank">GitHub</a>
@@ -51,6 +84,7 @@
       <ul id="News">
       <p>
       </p>
+          <li> November, 2025 - <a href="https://arxiv.org/abs/2504.13275" target="_blank">ChartQA-X: Generating Explanations for Visual Chart Reasoning</a> has been accepted to <em>Winter Conference on Applications of Computer Vision (WACV), 2026</em></li>
           <li> October, 2025 - <a href="https://openreview.net/pdf?id=ruZksIJBBd" target="_blank">Dual Caption Preference Optimization for Diffusion Models</a> has been accepted to <em>Transactions on Machine Learning Research (TMLR), 2025</em></li>
           <li> June, 2025 - New preprint <a href="https://arxiv.org/abs/2504.13275" target="_blank">ChartQA-X: Generating Explanations for Visual Chart Reasoning</a> is out!</li>
           <li> June, 2025 - Nominated as a reviewer for <a href="https://neurips.cc/" target="_blank">NeurIPS</a> 2025!</li>
@@ -99,10 +133,17 @@
         <a href="https://pooyanfazli.com" target="_blank">Pooyan Fazli</a>,
         <a href="https://hastiseifi.com" target="_blank">Hasti Seifi</a>
         <br>
-        <em>Under Review</em>
+        <em>Winter Conference on Applications of Computer Vision (WACV), 2026</em>
         <br><br>
         <a href="https://arxiv.org/abs/2504.13275" target="_blank">Paper</a> |
-        <a href="data/chartqax_preprint.bib" target="_blank">bibtex</a>
+        <a href="https://huggingface.co/datasets/shamanthakhegde/ChartQA-X" target="_blank">Dataset</a> |
+        <a class="bib-toggle" onclick="toggleBib('bib-chartqax')">bibtex</a>
+        <div id="bib-chartqax" class="bib-content">@article{hegde2025chartqa,
+  title={ChartQA-X: Generating Explanations for Charts},
+  author={Hegde, Shamanthak and Fazli, Pooyan and Seifi, Hasti},
+  journal={arXiv preprint arXiv:2504.13275},
+  year={2025}
+}</div>
       </td>
     </tr>
     
@@ -128,7 +169,16 @@
         <a href="https://openreview.net/pdf?id=ruZksIJBBd" target="_blank">Paper</a> |
         <a href="https://huggingface.co/DualCPO" target="_blank">Project</a> |
         <a href="https://github.com/sahsaeedi/DCPO-T2I/" target="_blank">Code</a> |
-        <a href="data/dcpo_preprint.bib" target="_blank">bibtex</a>
+        <a class="bib-toggle" onclick="toggleBib('bib-dcpo')">bibtex</a>
+        <div id="bib-dcpo" class="bib-content">@article{saeidi2025dual,
+  title={Dual Caption Preference Optimization for Diffusion Models},
+  author={Amir Saeidi and Yiran Lawrence Luo and Agneet Chatterjee and Shamanthak Hegde and Bimsara Pathiraja and Yezhou Yang and Chitta Baral},
+  journal={Transactions on Machine Learning Research},
+  issn={2835-8856},
+  year={2025},
+  url={https://openreview.net/forum?id=ruZksIJBBd},
+  note={}
+}</div>
       </td>
     </tr>
 
@@ -156,7 +206,15 @@
         <em>CVPR EvGenFM Workshop</em>, 2024
         <br><br>
         <a href="https://openaccess.thecvf.com/content/CVPR2024W/EvGenFM/html/Verma_Evaluating_Multimodal_Large_Language_Models_Across_Distribution_Shifts_and_Augmentations_CVPRW_2024_paper.html" target="_blank">Paper</a> |
-        <a href="data/EvGenFM_CVPR_2024.bib" target="_blank">bibtex</a>
+        <a class="bib-toggle" onclick="toggleBib('bib-evgenfm')">bibtex</a>
+        <div id="bib-evgenfm" class="bib-content">@InProceedings{Verma_2024_CVPR,
+    author    = {Verma, Aayush Atul and Saeidi, Amir and Hegde, Shamanthak and Therala, Ajay and Bardoliya, Fenil Denish and Machavarapu, Nagaraju and Ravindhiran, Shri Ajay Kumar and Malyala, Srija and Chatterjee, Agneet and Yang, Yezhou and Baral, Chitta},
+    title     = {Evaluating Multimodal Large Language Models Across Distribution Shifts and Augmentations},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2024},
+    pages     = {5314-5324}
+}</div>
       </td>
     </tr>
     
@@ -176,7 +234,14 @@
         <em>CVPR O-DRUM Workshop</em>, 2023
         <br><br>
         <a href="https://arxiv.org/abs/2308.00295" target="_blank">Paper</a> |
-        <a href="data/MTVQA_CVPR_2023.bib" target="_blank">bibtex</a>
+        <a class="bib-toggle" onclick="toggleBib('bib-mtvqa')">bibtex</a>
+        <div id="bib-mtvqa" class="bib-content">@inproceedings{hegde2023making,
+  title={Making the v in text-VQA matter},
+  author={Hegde, Shamanthak and Jahagirdar, Soumya and Gangisetty, Shankar},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={5580--5588},
+  year={2023}
+}</div>
       </td>
     </tr>
 
@@ -197,7 +262,14 @@
         <em>CVPR O-DRUM Workshop</em>, 2023
         <br><br>
         <a href="https://arxiv.org/abs/2306.06622" target="_blank">Paper</a> |
-        <a href="data/WSVQAG_CVPR_2023.bib" target="_blank">bibtex</a>
+        <a class="bib-toggle" onclick="toggleBib('bib-wsvqag')">bibtex</a>
+        <div id="bib-wsvqag" class="bib-content">@inproceedings{alampalle2023weakly,
+  title={Weakly Supervised Visual Question Answer Generation},
+  author={Alampalle, Charani and Hegde, Shamanthak and Jahagirdar, Soumya and Gangisetty, Shankar},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={5589--5597},
+  year={2023}
+}</div>
       </td>
     </tr>
 
